@@ -32,3 +32,14 @@ Step 5: Commit the code
 Now, commit the code to your GitHub repository & as soon as you commit you will see the workflow is running.
 tep 6: Verify the changes
 Once the workflow runs successfully you can see the image will be there in your docker hub.
+
+Summary
+Workflow Name: Describes the workflow's purpose (building a Docker image).
+Trigger: The workflow runs when code is pushed to the main branch.
+Job: Includes steps to:
+Check out the code from your repository.
+Set up Docker Buildx.
+Log in to Docker Hub using secure credentials.
+Build the Docker image using the specified tag.
+Push the Docker image to Docker Hub.
+Each step in this workflow is a command or action that helps automate the process of building and deploying a Docker image, making it easier to manage and deploy your applications.
